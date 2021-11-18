@@ -50,9 +50,16 @@
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 700px;
+}
+
+.bant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .text{
@@ -142,6 +149,7 @@
 
 .grid-1{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -192,14 +200,23 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: white;
 }
 
-.store{
+.late{
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.middle p{
+    font-weight: lighter;
+    color: black;
     font-size: 20px;
+    margin-top: 20px;
 }
 .first-grid{
     height: 300px;
@@ -253,12 +270,40 @@
 }
 
 .third{
-    text-align: center;
+   
     justify-content: center;
     align-items: center;
     display: flex;
+   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+}
+
+.third img{
+    margin-left: 40px;
+}
+
+.flx img{
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.flx{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+   
+}
+
+.cyborg{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.down{
+    height: 30px;
 }
 
 
@@ -378,6 +423,13 @@
     
 }
 
+.contain{
+    height: 40px;
+}
+
+.contn{
+    height: 100px;
+}
 .finally{
     background-color: black;
     display: flex;
@@ -406,33 +458,37 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     padding-right: 20px;
+    align-items: center;
+    justify-content: center;
   
 }
 
 .log{
     display: flex;
+    text-align: right;
     list-style: none;
-    text-align: left;
+    
 }
 .test a{
     text-decoration: none;
     color: white;
     margin-right: 30px;
-    text-align: left;
+    text-align: right;
 }
 
-.test p{
+.copy{
+    flex-direction: column;
     font-size: 10px;
-    text-align: left;
+    text-align: right;
 }
 
 .arrow{
-    height: 500px;
+    height: 10px;
 
 }
 
 .class img{
-    height: 200px;
+    height: 100px;
 }
 
 
@@ -520,6 +576,10 @@
 
 }
 
+.src{
+    height: 20px;
+    padding-left: 10px;
+}
 .mobile{
     display: none;
 }
